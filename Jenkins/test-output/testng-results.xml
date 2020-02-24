@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41462" started-at="2020-02-24T05:18:12Z" finished-at="2020-02-24T05:18:54Z">
+  <suite name="Suite" duration-ms="32845" started-at="2020-02-24T06:17:03Z" finished-at="2020-02-24T06:17:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41462" started-at="2020-02-24T05:18:12Z" finished-at="2020-02-24T05:18:54Z">
+    <test name="Test" duration-ms="32845" started-at="2020-02-24T06:17:03Z" finished-at="2020-02-24T06:17:36Z">
       <class name="JenkinsExecutionTest">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:JenkinsExecutionTest@23ceabc1]" name="Demo" duration-ms="41437" started-at="2020-02-24T10:48:12Z" finished-at="2020-02-24T10:48:54Z">
+        <test-method status="PASS" signature="DemoTest()[pri:0, instance:JenkinsExecutionTest@23ceabc1]" name="DemoTest" duration-ms="32821" started-at="2020-02-24T11:47:03Z" finished-at="2020-02-24T11:47:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo -->
+        </test-method> <!-- DemoTest -->
       </class> <!-- JenkinsExecutionTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

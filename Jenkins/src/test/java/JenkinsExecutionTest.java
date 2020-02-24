@@ -6,12 +6,15 @@ public class JenkinsExecutionTest {
 	
 
 	@Test
-	public void Demo()
+	public void DemoTest()
 	{
 		
 		WebDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.google.com");
+		String title = driver.getTitle();
+		System.out.println(title);
+		driver.close();
 	}
 
 }
